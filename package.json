@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "jest",
     "typecheck": "tsc --noEmit",
-    "format": "prettier --write'.src/**/*.{ts,tsx}'"
+    "format": "prettier --write'./src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.16",
