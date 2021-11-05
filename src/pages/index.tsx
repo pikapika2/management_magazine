@@ -16,8 +16,7 @@ export default function index(props) {
     </div>
   )
 }
- 
-//const url = "https://api.github.com/repos/zeit/next.js";
+
 export async function getServerSideProps() {
   //const url = 'https://jsonplaceholder.typicode.com/posts';
   const url = encodeURI('https://www.googleapis.com/books/v1/volumes?q=紅葉')
