@@ -20,7 +20,6 @@ export default function index(props) {
 export async function getServerSideProps() {
   //const url = 'https://jsonplaceholder.typicode.com/posts';
   const url = encodeURI('https://www.googleapis.com/books/v1/volumes?q=intitle:恋染紅葉&orderBy=newest')
-  const props
   const res = await fetch(url)
   const posts = await res.json()
   const datas = posts.items
