@@ -8,7 +8,7 @@ export default function index(props) {
     <div>
       <h1>表示</h1>
       <ul>
-        {props.datas.map((item) => {
+        {props.props.map((item) => {
           //return <li key={post.id}>{post.title}</li>;
           return <li key={item.id}>{item.volumeInfo.title} {item.kind}</li>
         })}
@@ -28,8 +28,9 @@ export async function getServerSideProps() {
   return {
     props: {
       //stars,
+      props: datas,
       posts: posts,
-      datas: datas,
+      //datas: datas,
     },
   }
 }
