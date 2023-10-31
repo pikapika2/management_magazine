@@ -17,7 +17,7 @@
     "@emotion/react": "11.8.1",
     "@emotion/styled": "11.8.1",
     "framer-motion": "4.1.17",
-    "next": "12.1.0",
+    "next": "12.3.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -27,7 +27,7 @@
     "@types/node": "16.11.3",
     "@types/react": "17.0.39",
     "eslint": "7.32.0",
-    "eslint-config-next": "12.1.0",
+    "eslint-config-next": "12.3.4",
     "jest": "27.5.1",
     "prettier": "2.5.1",
     "ts-jest": "27.1.3",
