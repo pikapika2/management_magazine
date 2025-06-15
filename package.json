@@ -24,7 +24,7 @@
   "devDependencies": {
     "@testing-library/react": "12.1.5",
     "@types/jest": "27.4.1",
-    "@types/node": "16.11.3",
+    "@types/node": "16.18.126",
     "@types/react": "17.0.39",
     "eslint": "7.32.0",
     "eslint-config-next": "12.1.0",
